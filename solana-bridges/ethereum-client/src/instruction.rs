@@ -29,7 +29,7 @@ pub struct ProvidePowElement {
     pub chunk_offset: u8,
     pub elements: [H512; Self::ETHASH_ELEMENTS_PER_INSTRUCTION as usize],
 }
-
+//ProviderPowElement
 impl ProvidePowElement {
     pub const ETHASH_ELEMENTS_PER_INSTRUCTION: u8 = 8;
 
